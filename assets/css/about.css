@@ -1,0 +1,321 @@
+.hero-about {
+    height: 60vh;
+    background: linear-gradient(135deg, #dbeafe 0%, #fce7f3 50%, #e0e7ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.floating-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    animation: float 20s ease-in-out infinite;
+}
+
+.shape1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #a78bfa, #ec4899);
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.shape2 {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    top: 60%;
+    right: 15%;
+    animation-delay: -5s;
+}
+
+.shape3 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ec4899, #60a5fa);
+    bottom: 15%;
+    left: 20%;
+    animation-delay: -10s;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(180deg); }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #7c3aed, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    color: #6b7280;
+}
+
+.story-section {
+    background: linear-gradient(180deg, #ffffff 0%, #faf5ff 100%);
+}
+
+.story-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.story-text h2 {
+    font-size: 2.5rem;
+    color: #7c3aed;
+    margin-bottom: 2rem;
+}
+
+.story-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.story-image {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    background: linear-gradient(135deg, #c7d2fe, #fbcfe8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-size: 1rem;
+}
+
+.values-section {
+    background: linear-gradient(180deg, #faf5ff 0%, #e0e7ff 100%);
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.value-card {
+    background: white;
+    border-radius: 25px;
+    padding: 3rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(167, 139, 250, 0.15);
+}
+
+.value-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #e0e7ff, #fce7f3);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.value-card h3 {
+    color: #7c3aed;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.value-card p {
+    color: #6b7280;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.team-section {
+    background: linear-gradient(180deg, #e0e7ff 0%, #ffffff 100%);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background: white;
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(167, 139, 250, 0.15);
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a78bfa, #ec4899);
+    margin: 0 auto 1.5rem;
+}
+
+.member-photo.alt1 {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+}
+
+.member-photo.alt2 {
+    background: linear-gradient(135deg, #ec4899, #60a5fa);
+}
+
+.member-name {
+    color: #7c3aed;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.member-role {
+    color: #9ca3af;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.member-bio {
+    color: #6b7280;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.journey-section {
+    background: linear-gradient(180deg, #ffffff 0%, #faf5ff 100%);
+}
+
+.journey-timeline {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.journey-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    align-items: start;
+}
+
+.journey-year {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #a78bfa, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: right;
+}
+
+.journey-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.journey-content h3 {
+    color: #7c3aed;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.journey-content p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+.mission-section {
+    background: linear-gradient(135deg, #e0e7ff, #fce7f3);
+    text-align: center;
+    padding: 5rem 5%;
+}
+
+.mission-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 4rem;
+    border-radius: 30px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.1);
+}
+
+.mission-box h2 {
+    font-size: 2.5rem;
+    color: #7c3aed;
+    margin-bottom: 2rem;
+}
+
+.mission-box p {
+    font-size: 1.2rem;
+    color: #4b5563;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 968px) {
+    .story-content {
+        grid-template-columns: 1fr;
+    }
+
+    .values-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .journey-item {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .journey-year {
+        text-align: left;
+    }
+}
