@@ -318,3 +318,28 @@
         font-size: 2.5rem;
     }
 }
+
+.info-card-icon img {
+    max-width: 60%;
+    max-height: 60%;
+    height: auto;
+}
+
+.info-icon img {
+    max-width: 55%;
+    max-height: 55%;
+    height: auto;
+}
+
+.social-link img {
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 500px;
+  display: block;
+  border: 0;
+}

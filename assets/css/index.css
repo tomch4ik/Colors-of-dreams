@@ -269,3 +269,41 @@
         grid-template-columns: 1fr;
     }
 }
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0e6fa; 
+    border-radius: 50%;
+    margin: 0 auto 20px auto; 
+}
+
+.feature-icon img {
+    max-width: 60%;
+    max-height: 60%;
+    height: auto;
+    display: block;
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.showcase-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
