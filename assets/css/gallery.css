@@ -335,3 +335,22 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-main img,
+.featured-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
