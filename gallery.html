@@ -1,255 +1,268 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dreamspace</title>
-    <link rel="stylesheet" href="assets/css/common.css">
-    <link rel="stylesheet" href="assets/css/gallery.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-        <a href="/index.html">✨ Dreamspace </a>
+      <div class="logo">
+        <a href="/Colors of dreams/index.html">✨ Dreamspace </a>
       </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="routes.html">Маршрути</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="routes.html">Маршрути</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
     </nav>
 
     <div class="page-header">
-        <h1>Галерея вражень</h1>
-        <p>Моменти, які надихають на нові подорожі</p>
+      <h1>Галерея вражень</h1>
+      <p>Моменти, які надихають на нові подорожі</p>
     </div>
 
     <div class="filter-bar">
-        <button class="filter-btn active" data-filter="all">Всі</button>
-        <button class="filter-btn" data-filter="gory">Гори</button>
-        <button class="filter-btn" data-filter="ozera">Озера</button>
-        <button class="filter-btn" data-filter="syaivo">Північне сяйво</button>
-        <button class="filter-btn" data-filter="lisy">Ліси</button>
-        <button class="filter-btn" data-filter="mistechka">Містечка</button>
+      <button class="filter-btn active" data-filter="all">Всі</button>
+      <button class="filter-btn" data-filter="gory">Гори</button>
+      <button class="filter-btn" data-filter="ozera">Озера</button>
+      <button class="filter-btn" data-filter="syaivo">Північне сяйво</button>
+      <button class="filter-btn" data-filter="lisy">Ліси</button>
+      <button class="filter-btn" data-filter="mistechka">Містечка</button>
     </div>
 
     <section class="gallery-section">
-        <div class="masonry-grid">
-            
-            <div class="gallery-item" data-category="syaivo">
-                <div class="gallery-image">
-                    <img src="images/severnoe-sianie-u-vodopada.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Танець північного сяйва</h3>
-                    <p>Ісландія, березень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="ozera">
-                <div class="gallery-image">
-                    <img src="images/mountain lake.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Дзеркало Альп</h3>
-                    <p>Швейцарія, липень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="lisy">
-                <div class="gallery-image">
-                    <img src="images/forest.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Хвойний ліс</h3>
-                    <p>Фінляндія, вересень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="gory">
-                <div class="gallery-image">
-                    <img src="images/zakat-v-gorah.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Золота година</h3>
-                    <p>Норвегія, червень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="ozera">
-                <div class="gallery-image">
-                    <img src="images/vodopad-v-lesu.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Потужність природи</h3>
-                    <p>Ісландія, квітень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="mistechka">
-                <div class="gallery-image">
-                    <img src="images/Hallstatt, Austria.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Затишне містечко</h3>
-                    <p>Австрія, серпень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="gory">
-                <div class="gallery-image">
-                    <img src="images/tumannoe-utro-v-osennii-sezon.jpg">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Ранковий туман</h3>
-                    <p>Шотландія, жовтень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="lisy">
-                <div class="gallery-image">
-                    <img src="images/Forests Of Slovenia.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Лісова стежка</h3>
-                    <p>Словенія, травень 2024</p>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="syaivo">
-                <div class="gallery-image">
-                    <img src="images/Northern lights Greenland.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Відображення в озері</h3>
-                    <p>Гренландія, лютий 2024</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="ozera">
-                <div class="gallery-image">
-                    <img src="images/dawn-lake.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Спокійний світанок</h3>
-                    <p>Канада, серпень 2024</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="mistechka">
-                <div class="gallery-image">
-                    <img src="images/Medieval narrow city street.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Старі вулички</h3>
-                    <p>Італія, вересень 2024</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-category="gory">
-                <div class="gallery-image">
-                    <img src="images/Mountain peak.jfif">
-                </div>
-                <div class="gallery-overlay">
-                    <h3>Вершина світу</h3>
-                    <p>Швейцарія, липень 2024</p>
-                </div>
-            </div>
+      <div class="masonry-grid">
+        <div class="gallery-item" data-category="syaivo">
+          <div class="gallery-image">
+            <img src="images/severnoe-sianie-u-vodopada.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Танець північного сяйва</h3>
+            <p>Ісландія, березень 2024</p>
+          </div>
         </div>
+
+        <div class="gallery-item" data-category="ozera">
+          <div class="gallery-image">
+            <img src="images/mountain lake.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Дзеркало Альп</h3>
+            <p>Швейцарія, липень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="lisy">
+          <div class="gallery-image">
+            <img src="images/forest.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Хвойний ліс</h3>
+            <p>Фінляндія, вересень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="gory">
+          <div class="gallery-image">
+            <img src="images/zakat-v-gorah.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Золота година</h3>
+            <p>Норвегія, червень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="ozera">
+          <div class="gallery-image">
+            <img src="images/vodopad-v-lesu.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Потужність природи</h3>
+            <p>Ісландія, квітень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="mistechka">
+          <div class="gallery-image">
+            <img src="images/Hallstatt, Austria.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Затишне містечко</h3>
+            <p>Австрія, серпень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="gory">
+          <div class="gallery-image">
+            <img src="images/tumannoe-utro-v-osennii-sezon.jpg" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Ранковий туман</h3>
+            <p>Шотландія, жовтень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="lisy">
+          <div class="gallery-image">
+            <img src="images/Forests Of Slovenia.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Лісова стежка</h3>
+            <p>Словенія, травень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="syaivo">
+          <div class="gallery-image">
+            <img src="images/Northern lights Greenland.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Відображення в озері</h3>
+            <p>Гренландія, лютий 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="ozera">
+          <div class="gallery-image">
+            <img src="images/dawn-lake.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Спокійний світанок</h3>
+            <p>Канада, серпень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="mistechka">
+          <div class="gallery-image">
+            <img src="images/Medieval narrow city street.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Старі вулички</h3>
+            <p>Італія, вересень 2024</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="gory">
+          <div class="gallery-image">
+            <img src="images/Mountain peak.jfif" />
+          </div>
+          <div class="gallery-overlay">
+            <h3>Вершина світу</h3>
+            <p>Швейцарія, липень 2024</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="featured-section">
-        <h2 class="section-title">Фото місяця</h2>
-        <div class="featured-grid">
-            <div class="featured-main">
-                <div class="featured-main-image">
-                    <img src="images/Feature-image-Northern-Lights.webp">
-                </div>
-                <div class="featured-info">
-                    <h2>Сяйво над фіордами</h2>
-                    <p>Незабутній момент, коли небо розфарбувалося всіма відтінками зеленого та фіолетового над норвезькими фіордами. Фото: Микола Цищук</p>
-                </div>
-            </div>
-            <div class="featured-side">
-                <div class="featured-small">
-                    <img src="images/chasing-the-nothern-lights-hero.jpg">
-                </div>
-                <div class="featured-small">
-                    <img src="images/Img_2222223413_0.jpg">
-                </div>
-            </div>
+      <h2 class="section-title">Фото місяця</h2>
+      <div class="featured-grid">
+        <div class="featured-main">
+          <div class="featured-main-image">
+            <img src="images/Feature-image-Northern-Lights.webp" />
+          </div>
+          <div class="featured-info">
+            <h2>Сяйво над фіордами</h2>
+            <p>
+              Незабутній момент, коли небо розфарбувалося всіма відтінками
+              зеленого та фіолетового над норвезькими фіордами. Фото: Микола
+              Цищук
+            </p>
+          </div>
         </div>
+        <div class="featured-side">
+          <div class="featured-small">
+            <img src="images/chasing-the-nothern-lights-hero.jpg" />
+          </div>
+          <div class="featured-small">
+            <img src="images/Img_2222223413_0.jpg" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="testimonials-section">
-        <h2 class="section-title">Відгуки мандрівників</h2>
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <p class="testimonial-text">Це була найкраща подорож у моєму житті! Кожен момент був продуманий до дрібниць, а краєвиди просто захоплювали дух. Обов'язково повернуся знову!</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <img src="images/people1_2025-11-10_01-39-46.jpg">
-                    </div>
-                    <div class="author-info">
-                        <h4>Олена Петренко</h4>
-                        <p>Київ, Україна</p>
-                    </div>
-                </div>
+      <h2 class="section-title">Відгуки мандрівників</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Це була найкраща подорож у моєму житті! Кожен момент був продуманий
+            до дрібниць, а краєвиди просто захоплювали дух. Обов'язково
+            повернуся знову!
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/people1_2025-11-10_01-39-46.jpg" />
             </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">Професійна команда, чудова організація і незабутні враження. Побачити північне сяйво було моєю давньою мрією, і вона здійснилася!</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <img src="images/people3_2025-11-10_01-40-22.jpg">
-                    </div>
-                    <div class="author-info">
-                        <h4>Махмуд Абжиков</h4>
-                        <p>Львів, Україна</p>
-                    </div>
-                </div>
+            <div class="author-info">
+              <h4>Олена Петренко</h4>
+              <p>Київ, Україна</p>
             </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">Дякую за незабутні емоції! Гірські озера виявилися ще красивішими, ніж на фото. Все було організовано ідеально.</p>
-                <div class="testimonial-author">
-                    <div class="author-avatar">
-                        <img src="images/people2_2025-11-10_01-40-09.jpg">
-                    </div>
-                    <div class="author-info">
-                        <h4>Ірина Коваль</h4>
-                        <p>Одеса, Україна</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Професійна команда, чудова організація і незабутні враження.
+            Побачити північне сяйво було моєю давньою мрією, і вона здійснилася!
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/people3_2025-11-10_01-40-22.jpg" />
+            </div>
+            <div class="author-info">
+              <h4>Махмуд Абжиков</h4>
+              <p>Львів, Україна</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Дякую за незабутні емоції! Гірські озера виявилися ще красивішими,
+            ніж на фото. Все було організовано ідеально.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <img src="images/people2_2025-11-10_01-40-09.jpg" />
+            </div>
+            <div class="author-info">
+              <h4>Ірина Коваль</h4>
+              <p>Одеса, Україна</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="stats-section">
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number" data-value="2500" data-suffix="+">0</div>
-                <div class="stat-label">Щасливих мандрівників</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" data-value="120" data-suffix="+">0</div>
-                <div class="stat-label">Унікальних маршрутів</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" data-value="35">0</div>
-                <div class="stat-label">Країн світу</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" data-value="15000" data-suffix="+">0</div>
-                <div class="stat-label">Фотографій</div>
-            </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-value="2500" data-suffix="+">0</div>
+          <div class="stat-label">Щасливих мандрівників</div>
         </div>
+        <div class="stat-card">
+          <div class="stat-number" data-value="120" data-suffix="+">0</div>
+          <div class="stat-label">Унікальних маршрутів</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-value="35">0</div>
+          <div class="stat-label">Країн світу</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-value="15000" data-suffix="+">0</div>
+          <div class="stat-label">Фотографій</div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Dreamspace</p>
+      <p>&copy; 2025 Dreamspace</p>
     </footer>
 
     <script src="assets/js/gallery.js" defer></script>
-</body>
+  </body>
 </html>

@@ -1,247 +1,279 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dreamspace</title>
-    <link rel="stylesheet" href="assets/css/common.css">
-    <link rel="stylesheet" href="assets/css/contact.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-        <a href="/index.html">✨ Dreamspace </a>
+      <div class="logo">
+        <a href="/Colors of dreams/index.html">✨ Dreamspace </a>
       </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="routes.html">Маршрути</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="routes.html">Маршрути</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
     </nav>
 
     <div class="contact-hero">
-        <h1>Зв'яжіться з нами</h1>
-        <p>Готові відповісти на всі ваші запитання та допомогти спланувати ідеальну подорож</p>
-        <div class="wave-decoration">
-            <div class="wave"></div>
-        </div>
+      <h1>Зв'яжіться з нами</h1>
+      <p>
+        Готові відповісти на всі ваші запитання та допомогти спланувати ідеальну
+        подорож
+      </p>
+      <div class="wave-decoration">
+        <div class="wave"></div>
+      </div>
     </div>
 
     <section class="contact-section">
-        <div class="contact-container">
-            <div class="contact-form-wrapper">
-                <h2>Напишіть нам</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Ваше ім'я *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Телефон</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="interest">Що вас цікавить? *</label>
-                        <select id="interest" name="interest" required>
-                            <option value="">Оберіть варіант</option>
-                            <option value="route">Інформація про маршрути</option>
-                            <option value="booking">Бронювання подорожі</option>
-                            <option value="custom">Індивідуальний тур</option>
-                            <option value="group">Груповий виїзд</option>
-                            <option value="other">Інше</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Ваше повідомлення *</label>
-                        <textarea id="message" name="message" required maxlength="500"></textarea>                    
-                        <span id="message-hint" class="char-hint">
-                            Досягнуто ліміт у 500 символів
-                        </span>
-                        <span id="message-counter" class="char-counter">0 / 500</span>
-                    </div>
-                    <button type="submit" class="submit-btn">Відправити повідомлення</button>
-                </form>
+      <div class="contact-container">
+        <div class="contact-form-wrapper">
+          <h2>Напишіть нам</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Ваше ім'я *</label>
+              <input type="text" id="name" name="name" required />
             </div>
-
-            <div class="contact-info">
-                <div class="info-card">
-                    <h3>
-                        <span class="info-card-icon">
-                            <img src="images/icons/map-location.png">
-                        </span>
-                        Наша адреса
-                    </h3>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/hotel.png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Головний офіс</strong></p>
-                            <p>вул. Канатна, 112</p>
-                            <p>Одеса, 65039, Україна</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card">
-                    <h3>
-                        <span class="info-card-icon">
-                            <img src="images/icons/contact-book.png">
-                        </span>
-                        Контактні дані
-                    </h3>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/email.png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Email</strong></p>
-                            <p><a href="mailto:info@dreamcolors.ua">info@dreamcolors.ua</a></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/phone.png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Телефон</strong></p>
-                            <p><a href="tel:+380441234567">+38 (044) 123-45-67</a></p>
-                            <p><a href="tel:+380671234567">+38 (067) 123-45-67</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="info-card">
-                    <h3>
-                        <span class="info-card-icon">
-                            <img src="images/icons/schedule.png">
-                        </span>
-                        Години роботи
-                    </h3>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/clock.png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Понеділок - П'ятниця</strong></p>
-                            <p>09:00 - 18:00</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/clock (1).png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Субота</strong></p>
-                            <p>10:00 - 15:00</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon">
-                            <img src="images/icons/clock (2).png">
-                        </div>
-                        <div class="info-text">
-                            <p><strong>Неділя</strong></p>
-                            <p>Вихідний</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required />
             </div>
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="interest">Що вас цікавить? *</label>
+              <select id="interest" name="interest" required>
+                <option value="">Оберіть варіант</option>
+                <option value="route">Інформація про маршрути</option>
+                <option value="booking">Бронювання подорожі</option>
+                <option value="custom">Індивідуальний тур</option>
+                <option value="group">Груповий виїзд</option>
+                <option value="other">Інше</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Ваше повідомлення *</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                maxlength="500"
+              ></textarea>
+              <span id="message-hint" class="char-hint">
+                Досягнуто ліміт у 500 символів
+              </span>
+              <span id="message-counter" class="char-counter">0 / 500</span>
+            </div>
+            <button type="submit" class="submit-btn">
+              Відправити повідомлення
+            </button>
+          </form>
         </div>
+
+        <div class="contact-info">
+          <div class="info-card">
+            <h3>
+              <span class="info-card-icon">
+                <img src="images/icons/map-location.png" />
+              </span>
+              Наша адреса
+            </h3>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/hotel.png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Головний офіс</strong></p>
+                <p>вул. Канатна, 112</p>
+                <p>Одеса, 65039, Україна</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>
+              <span class="info-card-icon">
+                <img src="images/icons/contact-book.png" />
+              </span>
+              Контактні дані
+            </h3>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/email.png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Email</strong></p>
+                <p>
+                  <a href="mailto:info@dreamcolors.ua">info@dreamcolors.ua</a>
+                </p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/phone.png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Телефон</strong></p>
+                <p><a href="tel:+380441234567">+38 (044) 123-45-67</a></p>
+                <p><a href="tel:+380671234567">+38 (067) 123-45-67</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>
+              <span class="info-card-icon">
+                <img src="images/icons/schedule.png" />
+              </span>
+              Години роботи
+            </h3>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/clock.png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Понеділок - П'ятниця</strong></p>
+                <p>09:00 - 18:00</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/clock (1).png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Субота</strong></p>
+                <p>10:00 - 15:00</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <img src="images/icons/clock (2).png" />
+              </div>
+              <div class="info-text">
+                <p><strong>Неділя</strong></p>
+                <p>Вихідний</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="map-section">
-        <h2 class="section-title">Як нас знайти</h2>
+      <h2 class="section-title">Як нас знайти</h2>
+      <div class="map-container">
         <div class="map-container">
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.473374275988!2d30.7442927!3d46.459130800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633d77bbf5f0b%3A0x1d1d936df1b2aa29!2z0J7QtNC10YHRjNC60LjQuSDQvdCw0YbRltC-0L3QsNC70YzQvdC40Lkg0YLQtdGF0L3QvtC70L7Qs9GW0YfQvdC40Lkg0YPQvdGW0LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2sua!4v1762731297374!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.473374275988!2d30.7442927!3d46.459130800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633d77bbf5f0b%3A0x1d1d936df1b2aa29!2z0J7QtNC10YHRjNC60LjQuSDQvdCw0YbRltC-0L3QsNC70YzQvdC40Lkg0YLQtdGF0L3QvtC70L7Qs9GW0YfQvdC40Lkg0YPQvdGW0LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2sua!4v1762731297374!5m2!1sru!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
+      </div>
     </section>
 
     <section class="faq-section">
-        <h2 class="section-title">Часті запитання</h2>
-        <div class="faq-container">
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Як забронювати подорож?</span>
-                    <span class="faq-icon">+</span>
-                </div>
-                <div class="faq-answer">
-                    Ви можете забронювати подорож через форму на цій сторінці, зателефонувавши нам або відвідавши наш офіс. Ми зв'яжемося з вами протягом 24 годин для уточнення деталей та підтвердження бронювання.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Які документи потрібні для подорожі?</span>
-                    <span class="faq-icon">+</span>
-                </div>
-                <div class="faq-answer">
-                    Залежно від напрямку, вам знадобиться закордонний паспорт, можливо віза (ми допоможемо з оформленням), туристична страховка (включена у вартість) та інші документи, про які ми повідомимо при бронюванні.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Чи можна створити індивідуальний маршрут?</span>
-                    <span class="faq-icon">+</span>
-                </div>
-                <div class="faq-answer">
-                    Так, звичайно! Ми з радістю розробимо для вас унікальний маршрут, враховуючи всі ваші побажання та інтереси. Просто зв'яжіться з нами для обговорення деталей.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Що входить у вартість туру?</span>
-                    <span class="faq-icon">+</span>
-                </div>
-                <div class="faq-answer">
-                    У вартість зазвичай включено: проживання, харчування (повний пансіон), трансфери, послуги гіда, необхідне спорядження, туристична страховка та всі вхідні квитки на локації маршруту. Детальний опис для кожного туру ви знайдете на сторінці маршрутів.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <span>Який рівень фізичної підготовки потрібен?</span>
-                    <span class="faq-icon">+</span>
-                </div>
-                <div class="faq-answer">
-                    Ми маємо маршрути різної складності — від легких прогулянок до складних гірських походів. Кожен тур має відмітку про необхідний рівень підготовки. Ми завжди раді допомогти вам обрати маршрут, що підходить саме вам.
-                </div>
-            </div>
+      <h2 class="section-title">Часті запитання</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Як забронювати подорож?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Ви можете забронювати подорож через форму на цій сторінці,
+            зателефонувавши нам або відвідавши наш офіс. Ми зв'яжемося з вами
+            протягом 24 годин для уточнення деталей та підтвердження бронювання.
+          </div>
         </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Які документи потрібні для подорожі?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Залежно від напрямку, вам знадобиться закордонний паспорт, можливо
+            віза (ми допоможемо з оформленням), туристична страховка (включена у
+            вартість) та інші документи, про які ми повідомимо при бронюванні.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Чи можна створити індивідуальний маршрут?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Так, звичайно! Ми з радістю розробимо для вас унікальний маршрут,
+            враховуючи всі ваші побажання та інтереси. Просто зв'яжіться з нами
+            для обговорення деталей.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Що входить у вартість туру?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            У вартість зазвичай включено: проживання, харчування (повний
+            пансіон), трансфери, послуги гіда, необхідне спорядження, туристична
+            страховка та всі вхідні квитки на локації маршруту. Детальний опис
+            для кожного туру ви знайдете на сторінці маршрутів.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Який рівень фізичної підготовки потрібен?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Ми маємо маршрути різної складності — від легких прогулянок до
+            складних гірських походів. Кожен тур має відмітку про необхідний
+            рівень підготовки. Ми завжди раді допомогти вам обрати маршрут, що
+            підходить саме вам.
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="social-section">
-        <h2>Слідкуйте за нами в соціальних мережах</h2>
-        <div class="social-links">
-            <a href="#" class="social-link">
-                <img src="images/icons/instagram.png">
-            </a>
-            <a href="#" class="social-link">
-                <img src="images/icons/facebook (1).png">
-            </a>
-            <a href="#" class="social-link">
-                <img src="images/icons/telegram.png">
-            </a>
-            <a href="#" class="social-link">
-                <img src="images/icons/facebook.png">
-            </a>
-        </div>
+      <h2>Слідкуйте за нами в соціальних мережах</h2>
+      <div class="social-links">
+        <a href="#" class="social-link">
+          <img src="images/icons/instagram.png" />
+        </a>
+        <a href="#" class="social-link">
+          <img src="images/icons/facebook (1).png" />
+        </a>
+        <a href="#" class="social-link">
+          <img src="images/icons/telegram.png" />
+        </a>
+        <a href="#" class="social-link">
+          <img src="images/icons/facebook.png" />
+        </a>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Dreamspace</p>
+      <p>&copy; 2025 Dreamspace</p>
     </footer>
 
     <script src="assets/js/contact.js" defer></script>
-</body>
+  </body>
 </html>

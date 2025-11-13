@@ -1,192 +1,245 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dreamspace</title>
-    <link rel="stylesheet" href="assets/css/common.css">
-    <link rel="stylesheet" href="assets/css/routes.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/routes.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-        <a href="/index.html">✨ Dreamspace </a>
+      <div class="logo">
+        <a href="/Colors of dreams/index.html">✨ Dreamspace </a>
       </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="routes.html">Маршрути</a></li>
-            <li><a href="gallery.html">Галерея</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="routes.html">Маршрути</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
     </nav>
 
     <div class="page-header">
-        <h1>Наші маршрути</h1>
-        <p>Оберіть свою ідеальну подорож серед найкрасивіших місць планети</p>
+      <h1>Наші маршрути</h1>
+      <p>Оберіть свою ідеальну подорож серед найкрасивіших місць планети</p>
     </div>
 
     <section class="section route-showcase">
-        <div class="showcase-grid">
-            <div class="showcase-image">
-                <img src="images/Aurora Borealis.jfif">
-            </div>
-            <div class="showcase-content">
-                <h2>Полярна казка</h2>
-                <p>Відправтеся у незабутню подорож до краю вічних снігів, де небо танцює у відблисках зеленого та фіолетового сяйва. Це місце, де природа демонструє свою найбільшу магію.</p>
-                <p>Маршрут включає відвідування найкращих точок спостереження за північним сяйвом, ночівлю в затишних гірських шале та знайомство з місцевою культурою.</p>
-                <div class="route-features">
-                    <span class="feature-tag">7 днів</span>
-                    <span class="feature-tag">Помірна складність</span>
-                    <span class="feature-tag">Зима</span>
-                </div>
-            </div>
+      <div class="showcase-grid">
+        <div class="showcase-image">
+          <img src="images/Aurora Borealis.jfif" />
         </div>
+        <div class="showcase-content">
+          <h2>Полярна казка</h2>
+          <p>
+            Відправтеся у незабутню подорож до краю вічних снігів, де небо
+            танцює у відблисках зеленого та фіолетового сяйва. Це місце, де
+            природа демонструє свою найбільшу магію.
+          </p>
+          <p>
+            Маршрут включає відвідування найкращих точок спостереження за
+            північним сяйвом, ночівлю в затишних гірських шале та знайомство з
+            місцевою культурою.
+          </p>
+          <div class="route-features">
+            <span class="feature-tag">7 днів</span>
+            <span class="feature-tag">Помірна складність</span>
+            <span class="feature-tag">Зима</span>
+          </div>
+        </div>
+      </div>
 
-        <div class="showcase-grid reverse">
-            <div class="showcase-image">
-                <img src="images/goraistockphoto-543069466-612x612.jpg">
-            </div>
-            <div class="showcase-content">
-                <h2>Дзеркало гір</h2>
-                <p>Піднімайтеся вгору через вікові соснові ліси до кришталево чистих гірських озер. Тут ви знайдете абсолютний спокій та єднання з природою.</p>
-                <p>Ця подорож ідеальна для тих, хто шукає відпочинку від міської метушні. Уявіть собі ранок біля озера, коли вода відображає перші промені сонця на вершинах гір.</p>
-                <div class="route-features">
-                    <span class="feature-tag">5 днів</span>
-                    <span class="feature-tag">Легка</span>
-                    <span class="feature-tag">Літо</span>
-                </div>
-            </div>
+      <div class="showcase-grid reverse">
+        <div class="showcase-image">
+          <img src="images/goraistockphoto-543069466-612x612.jpg" />
         </div>
+        <div class="showcase-content">
+          <h2>Дзеркало гір</h2>
+          <p>
+            Піднімайтеся вгору через вікові соснові ліси до кришталево чистих
+            гірських озер. Тут ви знайдете абсолютний спокій та єднання з
+            природою.
+          </p>
+          <p>
+            Ця подорож ідеальна для тих, хто шукає відпочинку від міської
+            метушні. Уявіть собі ранок біля озера, коли вода відображає перші
+            промені сонця на вершинах гір.
+          </p>
+          <div class="route-features">
+            <span class="feature-tag">5 днів</span>
+            <span class="feature-tag">Легка</span>
+            <span class="feature-tag">Літо</span>
+          </div>
+        </div>
+      </div>
 
-        <div class="showcase-grid">
-            <div class="showcase-image">
-                <img src="images/river_zakat.jpg">
-            </div>
-            <div class="showcase-content">
-                <h2>Річкові таємниці</h2>
-                <p>Слідуйте течією річки через мальовничі села та містечка, де час ніби зупинився. Відкрийте для себе автентичну культуру та гостинність місцевих жителів.</p>
-                <p>Маршрут поєднує активний відпочинок з культурним збагаченням: каякінг на річці, екскурсії історичними містечками та дегустація місцевої кухні.</p>
-                <div class="route-features">
-                    <span class="feature-tag">4 дні</span>
-                    <span class="feature-tag">Легка</span>
-                    <span class="feature-tag">Весна-Осінь</span>
-                </div>
-            </div>
+      <div class="showcase-grid">
+        <div class="showcase-image">
+          <img src="images/river_zakat.jpg" />
         </div>
+        <div class="showcase-content">
+          <h2>Річкові таємниці</h2>
+          <p>
+            Слідуйте течією річки через мальовничі села та містечка, де час ніби
+            зупинився. Відкрийте для себе автентичну культуру та гостинність
+            місцевих жителів.
+          </p>
+          <p>
+            Маршрут поєднує активний відпочинок з культурним збагаченням:
+            каякінг на річці, екскурсії історичними містечками та дегустація
+            місцевої кухні.
+          </p>
+          <div class="route-features">
+            <span class="feature-tag">4 дні</span>
+            <span class="feature-tag">Легка</span>
+            <span class="feature-tag">Весна-Осінь</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="section timeline-section">
-        <h2 class="section-title">Етапи вашої подорожі</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot">1</div>
-                <div class="timeline-content">
-                    <h3>Підготовка</h3>
-                    <p>Ми допомагаємо з усіма деталями: від оформлення документів до підбору екіпіровки</p>
-                </div>
-            </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot">2</div>
-                <div class="timeline-content">
-                    <h3>Прибуття</h3>
-                    <p>Зустріч у аеропорту, трансфер та знайомство з групою за традиційною вечерею</p>
-                </div>
-            </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot">3</div>
-                <div class="timeline-content">
-                    <h3>Перше враження</h3>
-                    <p>Початок подорожі з оглядових майданчиків та легких маршрутів для акліматизації</p>
-                </div>
-            </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot">4</div>
-                <div class="timeline-content">
-                    <h3>Основна програма</h3>
-                    <p>Найцікавіші локації, активності та занурення в місцеву культуру</p>
-                </div>
-            </div>
-    
-            <div class="timeline-item">
-                <div class="timeline-dot">5</div>
-                <div class="timeline-content">
-                    <h3>Спогади</h3>
-                    <p>Останній день присвячуємо фотосесіям та спільному обговоренню вражень</p>
-                </div>
-            </div>
+      <h2 class="section-title">Етапи вашої подорожі</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">1</div>
+          <div class="timeline-content">
+            <h3>Підготовка</h3>
+            <p>
+              Ми допомагаємо з усіма деталями: від оформлення документів до
+              підбору екіпіровки
+            </p>
+          </div>
         </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">2</div>
+          <div class="timeline-content">
+            <h3>Прибуття</h3>
+            <p>
+              Зустріч у аеропорту, трансфер та знайомство з групою за
+              традиційною вечерею
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">3</div>
+          <div class="timeline-content">
+            <h3>Перше враження</h3>
+            <p>
+              Початок подорожі з оглядових майданчиків та легких маршрутів для
+              акліматизації
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">4</div>
+          <div class="timeline-content">
+            <h3>Основна програма</h3>
+            <p>
+              Найцікавіші локації, активності та занурення в місцеву культуру
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">5</div>
+          <div class="timeline-content">
+            <h3>Спогади</h3>
+            <p>
+              Останній день присвячуємо фотосесіям та спільному обговоренню
+              вражень
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <section class="section map-section">
-        <h2 class="section-title">Географія наших маршрутів</h2>
-        <div class="map-container">
-            <div id="map"></div>
-        </div>
+      <h2 class="section-title">Географія наших маршрутів</h2>
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
     </section>
 
     <section class="section trip-info">
-        <h2 class="section-title">Що входить у вартість</h2>
-        <div class="info-grid">
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/hotel.png">
-                </div>
-                <h3>Проживання</h3>
-                <p>Затишні готелі та екологічні шале з усіма зручностями та чарівними краєвидами</p>
-            </div>
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/fast-food.png">
-                </div>
-                <h3>Харчування</h3>
-                <p>Повний пансіон з можливістю спробувати автентичну місцеву кухню</p>
-            </div>
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/bus.png">
-                </div>
-                <h3>Трансфери</h3>
-                <p>Комфортабельний транспорт для всіх переміщень за маршрутом</p>
-            </div>
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/customer-service.png">
-                </div>
-                <h3>Гіди</h3>
-                <p>Досвідчені професіонали, які знають кожен куточок маршруту</p>
-            </div>
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/gloves.png">
-                </div>
-                <h3>Екіпіровка</h3>
-                <p>Необхідне спорядження для безпечної та комфортної подорожі</p>
-            </div>
-            <div class="info-card">
-                <div class="info-icon">
-                    <img src="images/icons/camera.png">
-                </div>
-                <h3>Фотосупровід</h3>
-                <p>Професійний фотограф зафіксує ваші найкращі моменти</p>
-            </div>
+      <h2 class="section-title">Що входить у вартість</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/hotel.png" />
+          </div>
+          <h3>Проживання</h3>
+          <p>
+            Затишні готелі та екологічні шале з усіма зручностями та чарівними
+            краєвидами
+          </p>
         </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/fast-food.png" />
+          </div>
+          <h3>Харчування</h3>
+          <p>Повний пансіон з можливістю спробувати автентичну місцеву кухню</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/bus.png" />
+          </div>
+          <h3>Трансфери</h3>
+          <p>Комфортабельний транспорт для всіх переміщень за маршрутом</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/customer-service.png" />
+          </div>
+          <h3>Гіди</h3>
+          <p>Досвідчені професіонали, які знають кожен куточок маршруту</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/gloves.png" />
+          </div>
+          <h3>Екіпіровка</h3>
+          <p>Необхідне спорядження для безпечної та комфортної подорожі</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">
+            <img src="images/icons/camera.png" />
+          </div>
+          <h3>Фотосупровід</h3>
+          <p>Професійний фотограф зафіксує ваші найкращі моменти</p>
+        </div>
+      </div>
     </section>
 
     <section class="cta-section">
-        <h2>Готові до пригоди?</h2>
-        <p>Забронюйте свій маршрут або зв'яжіться з нами для індивідуальної консультації</p>
-        <a href="contact.html" class="cta-button">Забронювати подорож</a>
+      <h2>Готові до пригоди?</h2>
+      <p>
+        Забронюйте свій маршрут або зв'яжіться з нами для індивідуальної
+        консультації
+      </p>
+      <a href="contact.html" class="cta-button">Забронювати подорож</a>
     </section>
 
     <footer>
-        <p>&copy; 2025 Dreamspace</p>
+      <p>&copy; 2025 Dreamspace</p>
     </footer>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <script src="assets/js/routes.js" defer></script>
-</body>
+  </body>
 </html>
